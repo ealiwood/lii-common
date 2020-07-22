@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"lii/common/otp"
+	"github.com/ealiwood/lii-common/otp"
 )
 
 const debug = false

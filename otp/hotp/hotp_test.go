@@ -4,9 +4,9 @@ import (
 	"encoding/base32"
 	"testing"
 
+	"github.com/ealiwood/lii-common/otp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"lii/common/otp"
 )
 
 type tc struct {

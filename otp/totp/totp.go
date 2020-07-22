@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"lii/common/otp"
-	"lii/common/otp/hotp"
+	"github.com/ealiwood/lii-common/otp"
+	"github.com/ealiwood/lii-common/otp/hotp"
 )
 
 // Validate a TOTP using the current time.
