@@ -1,4 +1,4 @@
-module lii-common
+module github.com/ealiwood/lii-common
 
 go 1.12
 
