@@ -1,4 +1,4 @@
-module lii/common
+module lii-common
 
 go 1.12
 
