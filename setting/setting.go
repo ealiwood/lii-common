@@ -16,3 +16,7 @@ func New(configName, configPath, configType string) (*Setting, error) {
 	}
 	return &Setting{vp}, nil
 }
+
+func (s *Setting) UnmarshalAll(v interface{}) error {
+	return s.vp.Unmarshal(v)
+}
